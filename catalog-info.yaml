@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parasol-org.azure-ops
+  description: Azure operations.
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: parasol-dev/azure-operations-project
+  links:
+    - url: https://devspaces.apps.y1a9e1j9r7y1i8l.cbm5.p1.openshiftapps.com#https://github.com/parasol-dev/azure-operations-project
+      title: Open in Ansible development workspaces
+      icon: web
+spec:
+  type: playbook-project
+  lifecycle: production
+  owner: user:default/craig-br
